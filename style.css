@@ -1,0 +1,57 @@
+* {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+body {
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	background:grey;
+}
+h1 {
+	color:white;
+}
+
+a {
+	 color:#A7AEB5;
+     display: inline;
+}
+
+a:linked, a:visited{
+	color:#A7AEB5;
+
+}
+
+a:hover, a:active {
+	  color:#0095C7;
+}
+ 
+.mainheader{
+	background-image: headerback1.jpg;
+}
+.mainheader {
+	width: 10%;
+	height:50px;
+	background-color:#blue;
+
+}
+
+.mainheader nav ul li {
+	display: inline;
+	float: left;
+}
+
+.mainheader nav a:link, .mainheader a:visited {
+	 color: #fff;
+	 display: inline-block;
+	 padding: 10px 25px;
+}
+
+.mainheader nav a:hover, .mainheader a:active, .mainheader nav .active a:link, .mainheader .active a:visited {
+	background-color: blue;
+	text-shadow:none;
+	
+}
+
